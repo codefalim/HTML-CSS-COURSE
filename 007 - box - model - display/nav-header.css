@@ -1,0 +1,76 @@
+header {
+
+    position: relative;
+    height: 150px;
+    background-color: rgb(6, 131, 131);
+    /* display: block; */
+
+}
+
+nav {
+    position: absolute;
+    background-color: azure;
+    /* marg */
+    /* top: 0; */
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%) translateY(50%);
+    /* width: 50%; */
+
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+
+}
+
+
+nav ul {
+    display: flex;
+    padding: 20px 50px;
+    flex-flow:row ;
+    
+
+
+}
+
+ul li {
+
+    font-size: 1.3rem;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+
+ul li a {
+
+    text-decoration: none;
+
+    color: rgb(6, 131, 131);
+}
+
+
+ul li a:hover {
+
+   
+    padding-bottom: 8px;
+
+    animation: borderanimation 0.5s;
+    border-bottom: rgb(6, 131, 131) solid ;
+    
+}
+
+
+
+@keyframes borderanimation {
+
+    0% {
+
+
+        border-width: 0px;
+    } 
+
+    100% {
+        border-width: 5px;
+
+    }
+}
