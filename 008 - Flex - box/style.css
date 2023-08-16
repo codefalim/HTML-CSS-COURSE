@@ -1,0 +1,71 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.canvas {
+
+
+    height: 400px;
+    width: 400px;
+    background-color: white;
+}
+
+body {
+
+    background-color: aliceblue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexbox-1 {
+
+    display: flex;
+    background-color: bisque;
+    flex-direction: column;
+    margin-bottom: 20px;
+    /* height: 100px; */
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+
+}
+.flexbox-2 {
+
+    display: flex;
+    background-color: bisque;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.box {
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    /* margin: 10px; */
+
+
+
+}
+
+.flexitem-1 {
+
+    background-color: aqua;
+}
+
+.flexitem-5 {
+
+    flex-grow: 1;
+    
+}
+.flexitem-4 {
+
+    align-self:flex-end;
+    flex-basis: 50%;
+}
