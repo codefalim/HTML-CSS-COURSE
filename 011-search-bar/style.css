@@ -1,0 +1,41 @@
+.main-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex: 1 1 300px; */
+    border-radius: 10px;
+    border: 1px solid #ccc ;
+    width: 300px;
+
+}
+
+input[type="text"]{
+
+    border: 0;
+    padding: 0.8rem;
+}
+
+input[type="button"]{
+
+    color: white;
+    background-color: #0f4a8a;
+    border: 0;
+    padding: 0.8rem;
+    border-radius: 8px;
+
+    /* align-self: self-end; */
+}
+
+img {
+
+    margin-left: 15px;
+}
+
+
+input[type="button"]:hover{
+
+    cursor: pointer;
+    background-color: #093666;
+}
+
