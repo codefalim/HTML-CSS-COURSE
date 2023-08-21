@@ -1,0 +1,93 @@
+.flex-main {
+
+    display: flex;
+    background-color: #e0e0e0;
+    justify-content:flex-start ;
+    border-left: 4px black solid;
+    border-bottom: 4px black solid;
+    padding-left: 20px;
+}
+
+.main-item{
+
+    
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    height: 500px;
+    justify-content: end;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* writing-mode: ; */
+}
+
+.male{
+
+    background-color: #eb3116;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.female{
+
+    background-color: #ffbe00;
+   
+
+}
+
+.child-35{
+
+    /* background-color: #eb3116; */
+    flex-basis: 35%;
+}
+
+.child-65 {
+
+    /* background-color: #ffbe00; */
+    flex-basis: 65%;
+}
+
+.child-15{
+
+    flex-basis: 15%;
+
+}
+
+.child-85{
+
+    flex-basis: 85%;
+}
+
+.child-45{
+
+    flex-basis: 45%;
+}
+
+.child-55{
+
+    flex-basis: 55%;
+}
+
+.child-60{
+
+    flex-basis: 60%;
+}
+
+.child-40{
+
+        flex-basis: 40%;
+}
+
+p {
+
+    writing-mode: vertical-lr;
+}
+
+.female,.male{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
