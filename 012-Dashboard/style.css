@@ -1,0 +1,99 @@
+:root{
+
+    --bg:#183028;
+    --fg: #c5e86c;
+}
+
+html{
+
+    box-sizing: border-box;
+    
+}
+
+*,*::after,*::before{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+
+    min-height: 100vh;
+    border: 1px red solid;
+    display: flex;
+    background-color: #cad2ca;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    
+}
+
+aside{
+
+    background-color:var(--bg);
+    flex-basis: 25%;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+main{
+
+    background-color: white;
+    flex-basis: 75%;
+}
+
+.dashboard-bg{
+
+    width: 65%;
+    display: flex;
+    height: 85vh;
+
+    /* width: 1083px; */
+    /* height: 766px; */
+
+}
+
+.do-color{
+
+    color:var(--fg);
+}
+
+.brand-label{
+
+    font-size: 1.8rem;
+}
+
+.side-bar-header{
+
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 20px;
+    flex-basis: 10px;
+
+}
+
+ul>li{
+    font-size: 0.8rem;
+    list-style: none;
+    line-height: 2;
+    /* margin-top: 1px; */
+    /* margin-bottom: 1px; */
+    padding-left: 19px;
+    padding-right: 10px;
+
+}
+
+ul>li:hover{
+
+    background-color: var(--fg);
+    color: var(--bg);
+    padding: 10px;
+
+}
+
+
