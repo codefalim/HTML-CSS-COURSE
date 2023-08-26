@@ -43,7 +43,96 @@ aside{
 main{
 
     background-color: white;
-    flex-basis: 75%;
+    /* flex-basis: 75%; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+
+}
+.top-nav{
+    flex-basis: 8%;
+    /* background-color: #8bad35; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.search{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 0 15px;
+    
+}
+
+.search input{
+    border: none;
+}
+
+.search i,.bell-border{
+    color: #7e8c88;
+
+}
+.top-nav h1{
+
+    flex:1;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.bell-border{
+
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    /* padding: 10px; */
+
+}
+.top-nav button{
+
+     background-color: var(--bg); 
+    color: white;
+    padding: 0 20px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border: none; 
+}
+
+.top-nav div{
+    
+    border:2px solid #ebedec;
+    border-radius: 2px;
+}
+
+
+
+
+.bottom-nav{
+    flex-basis: 8%;
+    background-color: #e4f8a2;
+}
+
+.debit-card{
+    background-color: #707070;
+    flex-basis: 24%;
+}
+
+.transaction{
+
+    background-color: #ddffcb;
+    flex:1;
 }
 
 .dashboard-bg{
@@ -51,6 +140,7 @@ main{
     width: 65%;
     display: flex;
     height: 85vh;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 
     /* width: 1083px; */
     /* height: 766px; */
@@ -94,6 +184,17 @@ ul>li:hover{
     color: var(--bg);
     padding: 10px;
 
+}
+
+li>i{
+
+    padding-right: 10px;
+}
+
+.top-nav div,button{
+
+    /* background-color: red; */
+    height: 45px;
 }
 
 
